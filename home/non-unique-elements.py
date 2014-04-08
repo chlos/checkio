@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-#from collections import Counter
 
 #def checkio(data):
+    #from collections import Counter
     #l_non_unique_elements = [e for e, c in Counter(data).items() if c > 1]
     #l_unique_removed = [e for e in data if e in l_non_unique_elements]
     #return l_unique_removed
