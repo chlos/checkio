@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 def checkio(data):
     data_sorted = sorted(data)
     data_len = len(data_sorted)
