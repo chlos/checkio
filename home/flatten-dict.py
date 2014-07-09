@@ -3,6 +3,8 @@ def flatten(dictionary):
     result = {}
     while stack:
         path, current = stack.pop()
+        if not current:
+            result["/".join(path)] = ''
         for k, v in current.items():
             if isinstance(v, dict):
                 stack.append((path + (k,), v))
